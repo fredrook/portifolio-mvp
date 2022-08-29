@@ -18,7 +18,7 @@ const Head = ( ) => {
       <Div>
         <img src={myName} alt="Frederico Rook Chaves" />
 
-        <button type="button" onClick={() => setModal(true)}>
+        <button type="button" onClick={() => setModal(!modal)}>
           <VscListTree className='navIcon'/>
         </button>
       </Div>

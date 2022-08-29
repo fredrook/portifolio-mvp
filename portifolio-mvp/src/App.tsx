@@ -9,7 +9,7 @@ import NavBarModal from "./Pages/ModalNavBar/ModalNavBar";
 function App() {
   return (
     <AuthContext>
-      {/* <NavBarModal/> */}
+     {/*  <NavBarModal/> */}
         <Header />
     {/*   <Main>
         <FRC/>
