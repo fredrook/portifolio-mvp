@@ -1,21 +1,12 @@
-import { createContext, Dispatch, ReactNode, SetStateAction, useState } from "react";
-import NavBarModal from "../Pages/ModalNavBar/ModalNavBar";
-
-export interface IContextProvider { 
-    children: ReactNode; 
-}
-
-export interface IProviderProps {
-    modal: boolean;
-    setModal: Dispatch<SetStateAction<boolean>>;
-}
+import { createContext, useState } from "react";
+import { IContextProvider } from "../interfaces/IContextProvider";
+import { IProviderProps } from "../interfaces/IProviderProps";
 
 export const UserContext = createContext<IProviderProps>({} as IProviderProps);
 
 const AuthContext = ( { children }: IContextProvider ) => {
 
     const [ modal, setModal ] = useState(false);
-
 
     return (
         <UserContext.Provider value={{modal, setModal}}>

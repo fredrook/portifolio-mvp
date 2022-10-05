@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
-export const Main = styled.main`
-display: flex;
-`
+export const AppDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+ 
+  width: 100vw;
+  min-height: 100vh;
+`;

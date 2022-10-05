@@ -1,20 +1,17 @@
-import { Div, Header } from '../Header/HeaderCSS'
+import { Div, TagHeader } from '../Header/HeaderCSS'
 import { VscListTree } from "react-icons/vsc"
 import { useContext } from 'react';
-/* import { IProviderProps } from '../../Context/AuthContext'; */
 import { UserContext } from '../../Context/AuthContext';
+import NavBarModal from '../ModalNavBar/ModalNavBar';
 
-const Head = ( ) => {
+const Header = ( ) => {
 
   const { modal, setModal } = useContext(UserContext)
-  console.log("LOG DO SETMODAL ",setModal)
-  console.log("LOG DO MODAL ",modal)
 
   const myName: string = require('../../Assets/FRC.png')
-  /* const BackgroungWall: string = require('../../Assets/FundoWall.png') */
 
   return (
-    <Header>
+    <TagHeader>
       <Div>
         <img src={myName} alt="Frederico Rook Chaves" />
 
@@ -22,9 +19,12 @@ const Head = ( ) => {
           <VscListTree className='navIcon'/>
         </button>
       </Div>
-    </Header>
+      {modal && (
+              <NavBarModal />
+          )}
+    </TagHeader>
   );
 };
 
 
-export default Head;
+export default Header;

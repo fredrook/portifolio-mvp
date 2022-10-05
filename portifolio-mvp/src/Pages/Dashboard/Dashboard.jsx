@@ -1,17 +1,18 @@
 import { Container } from "./DashboardCSS";
-import ImageBackground from "../Assets/Fundo.png"
-import FotoFRC from "../Assets/Foto FRC.png"
+import Header from "../../Components/Header/Header";
+import SubHeaderFoto from "../../Components/SubHeaderFoto/SubHeaderFoto";
+import Carousel from "../../Components/Carousel/Carousel";
+import Main from "../../Components/Main/Main";
 
-const FRC = () => {
+const Dashboard = () => {
+  return (
+    <Container>
+      <Header />
+      <SubHeaderFoto />
+      <Main/>
+      <Carousel />
+    </Container>
+  );
+};
 
-    return (
-        <Container>
-            <div>
-            <img src={ImageBackground} alt="Fundo de tela" className="backGroundImg"/>
-            <img src={FotoFRC} alt="Foto do Frederico Rook Chaves" className="backGroundFoto"/>
-            </div>
-        </Container>
-    )
-}
-
-export default FRC;
+export default Dashboard;
