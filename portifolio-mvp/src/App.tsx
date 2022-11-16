@@ -1,19 +1,13 @@
-import Header from "./Components/Header/Header";
-
-import FRC from "./Pages/Dashboard/Dashboard";
-import { Main } from "./AppCSS";
-
 import AuthContext from "./Context/AuthContext";
-import NavBarModal from "./Pages/ModalNavBar/ModalNavBar";
+import Dashboard from "./Pages/Dashboard/Dashboard";
+import { AppDiv } from "./AppCSS"
 
 function App() {
   return (
     <AuthContext>
-      {/* <NavBarModal/> */}
-        <Header />
-    {/*   <Main>
-        <FRC/>
-      </Main> */}
+      <AppDiv>
+      <Dashboard/>
+      </AppDiv>
     </AuthContext>
   );
 }

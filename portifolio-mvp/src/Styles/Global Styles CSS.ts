@@ -2,16 +2,17 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   :root {
-    --color-primary:  #FF577F;
-    --color-primary-Focus #FF427F;
-    --color-primary-Negative: #59323F;
-    --color-grey-4: #121214;
-    --color-grey-3: #212529;
-    --color-grey-2: #343B41;
-    --color-grey-1: #868E96;
-    --color-grey0: #F8F9FA;
-    --color-negative: #E83F5B;
-    --color-success: #3FE864;
+    --color-primary:          #1E4367;
+    --color-primary-Focus:    #003A79;
+    --color-primary-Negative: #000044;
+    --color-orange:           #FF6B00;
+    --color-grey-4:           #121214;
+    --color-grey-3:           #212529;
+    --color-grey-2:           ##d9d9d940;
+    --color-grey-1:           #D9D9D9;
+    --color-white:            #FFFFFF;
+    --color-negative:         #E83F5B;
+    --color-success:          #3FE864;
     font-size: 60%;   
   }
 
@@ -31,7 +32,6 @@ const GlobalStyle = createGlobalStyle`
   body,html{
     width: 100vw;
     height: 100vh;
-    background: green;
   }
 
   body {
@@ -52,24 +52,6 @@ const GlobalStyle = createGlobalStyle`
 
   button {
     cursor: pointer;
-  }
-  
-  /* width */
-  ::-webkit-scrollbar {
-    width: 10px;
-  }
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: var(--color-grey-20);
-  }
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: var(--color-grey-20);
- 
-  }
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: var(--color-grey-100);
   }
 `;
 

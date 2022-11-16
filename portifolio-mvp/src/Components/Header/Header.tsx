@@ -1,30 +1,41 @@
-import { Div, Header } from '../Header/HeaderCSS'
-import { VscListTree } from "react-icons/vsc"
+import { Div, TagHeader } from '../Header/HeaderCSS'
+/* import { VscListTree } from "react-icons/vsc"
 import { useContext } from 'react';
-/* import { IProviderProps } from '../../Context/AuthContext'; */
 import { UserContext } from '../../Context/AuthContext';
+import NavBarModal from '../ModalNavBar/ModalNavBar'; */
+import SubHeaderFoto from '../SubHeaderFoto/SubHeaderFoto';
+import BtnBackEnd from "../ButtonBackEnd/BtnBackEnd"
+import BtnFrontEnd from '../ButtonFrontEnd/BtnFrontEnd';
+import BtnHistory from '../ButtonHistory/BtnHistory';
+import BtnProjects from '../ButtonProjects/BtnProjects';
 
-const Head = ( ) => {
 
-  const { modal, setModal } = useContext(UserContext)
-  console.log("LOG DO SETMODAL ",setModal)
-  console.log("LOG DO MODAL ",modal)
+const Header = ( ) => {
 
-  const myName: string = require('../../Assets/FRC.png')
-  /* const BackgroungWall: string = require('../../Assets/FundoWall.png') */
+/*   const { visible, setIsVisible } = useContext(UserContext) */
+
+  const myName: string = require('../../Assets/FRC.png');
 
   return (
-    <Header>
+    <TagHeader>
       <Div>
         <img src={myName} alt="Frederico Rook Chaves" />
-
-        <button type="button" onClick={() => setModal(true)}>
+        <SubHeaderFoto/>
+        <BtnHistory/>
+        <BtnFrontEnd/>
+        <BtnBackEnd/>
+        <BtnProjects/>
+      </Div>
+        {/* <button type="button" onClick={() => setIsVisible(visible => !visible)}>
           <VscListTree className='navIcon'/>
         </button>
       </Div>
-    </Header>
+      {visible && (
+              <NavBarModal />
+          )} */}
+    </TagHeader>
   );
 };
 
 
-export default Head;
+export default Header;
