@@ -1,4 +1,4 @@
-import { ContainerMain, TagDiv } from "./MainCSS";
+import { ContainerMain, TagDiv } from "./TextApresentationCSS";
 /* import Foto from "../../Assets/Technologias/Web Semantica.jgp" */
 
 const Main = () => {

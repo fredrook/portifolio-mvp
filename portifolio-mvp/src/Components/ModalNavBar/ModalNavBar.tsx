@@ -1,13 +1,38 @@
 import { useContext } from "react";
 import { UserContext } from "../../Context/AuthContext";
 import { Container, Nav } from "./CSSModalNavBar";
+import { motion } from "framer-motion";
 
 const NavBarModal = () => {
-  const { modal } = useContext(UserContext);
+  const { visible, setIsVisible } = useContext(UserContext);
+
+  const variants = {
+    open: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        y: { stiffness: 1000, velocity: -100 },
+      },
+    },
+    closed: {
+      y: 50,
+      opacity: 0,
+      transition: {
+        y: { stiffness: 1000 },
+      },
+    },
+  };
 
   return (
     <>
-      {modal && (
+      <motion.div
+        animate={visible ? "open" : "closed"}
+        variants={variants}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.95 }}
+      ></motion.div>
+      
+      {visible && (
         <Container>
           <Nav>
             <a href="*">

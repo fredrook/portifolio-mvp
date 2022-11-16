@@ -1,16 +1,16 @@
 import { Container } from "./DashboardCSS";
-import Header from "../../Components/Header/Header";
-import SubHeaderFoto from "../../Components/SubHeaderFoto/SubHeaderFoto";
 import Carousel from "../../Components/Carousel/Carousel";
-import Main from "../../Components/Main/Main";
+import Main from "../../Components/Text Apresentation/TextApresentation";
+import Footer from "../../Components/Footer/Footer";
+import Header from "../../Components/Header/Header";
 
 const Dashboard = () => {
   return (
     <Container>
       <Header />
-      <SubHeaderFoto />
-      <Main/>
+      <Main />
       <Carousel />
+      <Footer />
     </Container>
   );
 };

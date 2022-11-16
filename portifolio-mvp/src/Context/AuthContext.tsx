@@ -6,10 +6,10 @@ export const UserContext = createContext<IProviderProps>({} as IProviderProps);
 
 const AuthContext = ( { children }: IContextProvider ) => {
 
-    const [ modal, setModal ] = useState(false);
+    const [ visible, setIsVisible ] = useState(false);
 
     return (
-        <UserContext.Provider value={{modal, setModal}}>
+        <UserContext.Provider value={{visible, setIsVisible}}>
             {children}
         </UserContext.Provider>
     )
