@@ -13,7 +13,8 @@ const GlobalStyle = createGlobalStyle`
     --color-white:            #FFFFFF;
     --color-negative:         #E83F5B;
     --color-success:          #3FE864;
-    font-size: 60%;   
+    
+    font-family: alice;
   }
 
   @media (min-width: 700px) {
@@ -42,7 +43,7 @@ const GlobalStyle = createGlobalStyle`
 
   body, input, button, textarea {
     font-family: 'Roboto';
-    font-size: 1.6rem;
+    font-size:  1.6rem;
   }
 
   h1, h2, h3, h4, h5, h6, strong {
