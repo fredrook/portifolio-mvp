@@ -1,8 +1,8 @@
-import { CarouselStyled } from "./CarouselCSS";
+import { CarouselStyled } from "./CarouselFrontEndCSS";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
-const Carousel = () => {
+const CarouselFronEnd = () => {
   const responsiveSettings = [
     {
       breakpoint: 1200,
@@ -61,4 +61,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default CarouselFronEnd;

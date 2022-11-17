@@ -5,8 +5,7 @@ import ReactIcon from "../../Assets/FrontEnd/RReact.svg";
 const FrontEndPage = () => {
   const JS: string = require("../../Assets/FrontEnd/JavaScript.png");
   const HTML: string = require("../../Assets/FrontEnd/HTML.png");
-  const CSS: string = require("../../Assets/FrontEnd/CSS.png");/* 
-  const React: string = require("../../Assets/FrontEnd/React.png"); */
+  const CSS: string = require("../../Assets/FrontEnd/CSS.png");
   const TS: string = require("../../Assets/FrontEnd/TypeScript.png");
   const Node: string = require("../../Assets/FrontEnd/NodeJS.png");
   const MUi: string = require("../../Assets/FrontEnd/MUi.png");
