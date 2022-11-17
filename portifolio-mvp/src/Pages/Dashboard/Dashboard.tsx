@@ -11,8 +11,8 @@ const Dashboard = () => {
     <Container>
       <Header />
       <img className="ICB" src={Iceberg} alt="Fundo de tela!" />
-      {/* <WellCome/>
-      <FrontEndPage/> */}
+      <WellCome/>
+      <FrontEndPage/>
       <Footer />
     </Container>
   );

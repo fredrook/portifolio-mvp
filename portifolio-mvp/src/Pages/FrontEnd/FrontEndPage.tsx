@@ -19,12 +19,12 @@ const FrontEndPage = () => {
         <img src={JS} alt="Java Script" />
         <img src={HTML} alt="HTML" />
         <img src={CSS} alt="CSS" />
-        <img src={TS} alt="Type Script" />
-        <img src={ReactIcon} alt="React" className="Batata" /> 
-        <img src={Node} alt="NodeJS" />
-        <img src={MUi} alt="MUi" />
-        <img src={BST} alt="Bootstrap" />
-        <img src={Chakra} alt="Chakra" />
+        <img src={TS} alt="Type Script" className="TS"/>
+        <img src={ReactIcon} alt="React" className="ReactIcon" /> 
+        <img src={Node} alt="NodeJS" className="Node"/>
+        <img src={MUi} alt="MUi" className="MUi"/>
+        <img src={BST} alt="Bootstrap" className="BST"/>
+        <img src={Chakra} alt="Chakra" className='Chk'/>
       </div>
       <span>Front End</span>
       <div className="TextFrontEnd">

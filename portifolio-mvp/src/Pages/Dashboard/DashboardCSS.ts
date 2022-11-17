@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 
@@ -10,6 +11,7 @@ export const Container = styled.div`
     height: 80%;
     position: fixed;
     top: 20%;
+    align-items: center;
 
     z-index: -9999;
   }
