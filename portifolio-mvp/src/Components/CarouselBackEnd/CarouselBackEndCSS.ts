@@ -1,7 +1,9 @@
 import styled from "styled-components"
 
 export const CarouselStyled = styled.div`
-
+position: relative;
+bottom: 8%;
+right: 5px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -18,7 +20,8 @@ margin-top: 5vw;
   .app__carousel--img-box > div {
     background-size: cover;
     margin: 0 auto; 
-    aspect-ratio: 424/202;
+    aspect-ratio: 425/202;
     width: 96%;
+    
   }
 `;

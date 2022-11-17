@@ -36,19 +36,16 @@ const NavBarModal = () => {
         <Container>
           <Nav>
             <a href="*">
-              <span>Home</span>
+              <span>History</span>
             </a>
             <a href="*">
-              <span>Soft Skills</span>
+              <span>Front-End</span>
             </a>
             <a href="*">
-              <span>Hard Skills</span>
+              <span>Back-End</span>
             </a>
             <a href="*">
-              <span>Projetos</span>
-            </a>
-            <a href="*">
-              <span>Contatos</span>
+              <span>Projects</span>
             </a>
           </Nav>
         </Container>

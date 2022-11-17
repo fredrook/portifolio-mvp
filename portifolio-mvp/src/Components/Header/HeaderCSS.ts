@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const TagHeader = styled.header`
     width: 100%;
     position: fixed;
+    z-index: 999;
 `
     
 export const Div = styled.div`
