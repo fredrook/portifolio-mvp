@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const TagFooter = styled.header`
+export const TagFooter = styled.div`
   position: fixed;
   bottom: 1px;
   width: 100%;
@@ -24,6 +24,9 @@ export const TagFooter = styled.header`
   }
 
   p {
+    position: relative;
+    top: 10px;
+    right: 45px;
     font-size: 8px;
     line-height: 10px;
     font-weight: 400;

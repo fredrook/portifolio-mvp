@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
 export const TagContainer = styled.div`
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-
-  margin: 100px 30px;
-  
-`
+  position: relative;
+  top: 12%;
+  left: 1%;
+  max-width: 90%;
+  height: 100vh;
+  min-height: 100vh;
+`;
