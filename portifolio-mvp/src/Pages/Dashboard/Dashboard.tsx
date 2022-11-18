@@ -7,16 +7,17 @@ import BackEndPage from "../BackEnd/BackEndPage";
 import ProjectPage from "../Projects/ProjectsPage";
 
 const Dashboard = () => {
-  const Iceberg: string = require("../../Assets/Icones/ICE BERG IMG.png");
-
+  const Iceb: string = require("../../Assets/Icones/IceB.png");
+  const Ondas: string= require("../../Assets/Icones/Ondas.png");
   return (
     <Container>
       <Header />
-      <img className="ICB" src={Iceberg} alt="Fundo de tela!" />
-      <WellCome />
+      <img className="ICB" src={Iceb} alt="Fundo de Movel!" />
+      <img className="Ondas" src={Ondas} alt="Fundo de estatico!" />
+     {/*  <WellCome />
       <FrontEndPage />
       <BackEndPage />
-      <ProjectPage />
+      <ProjectPage /> */}
       <Footer />
     </Container>
   );

@@ -20,7 +20,7 @@
     "react-slideshow-image": "^4.0.5",
     "styled-components": "^5.3.5",
     "typescript": "^4.4.2",
-    "vercel": "^28.4.6",
+    "vercel": "^28.5.4",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
