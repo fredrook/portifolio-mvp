@@ -16,7 +16,7 @@ const BackEndPage = () => {
 
   return (
     <TagContainer>
-      <div className="DivIcons">
+      <div className="DivIcons" id="IDBE">
         <img src={PY} alt="Python" className="PythonIcon" />
         <img src={Redis} alt="Redis" className="Redis" />
         <img src={NodeJS} alt="NodeJS" className="NJS" />
@@ -30,7 +30,7 @@ const BackEndPage = () => {
         <img src={Jest} alt="Jest" className="Jest" />
       </div>
       <span>Back End</span>
-      <div className="TextFrontEnd">
+      <div className="TextBackEnd">
         <h2>
           Currently performing the specialization in Back End, through Kenzie
           Academy Brasil, I am specializing in certain languages and

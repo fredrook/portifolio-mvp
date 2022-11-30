@@ -3,9 +3,10 @@ import styled from "styled-components";
 export const TagContainer = styled.div`
   display: flex;
   flex-direction: column;
-
   width: 100vw;
   height: 100vh;
+  min-height: 100vh;
+  margin-bottom: 5vw;
 
   h2 {
     position: relative;

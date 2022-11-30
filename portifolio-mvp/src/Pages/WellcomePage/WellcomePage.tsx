@@ -1,5 +1,5 @@
 import TextApresentation from "../../Components/Text Apresentation/TextApresentation";
-import { TagContainer } from "./WellcomePageCSS"
+import { TagContainer } from "./WellcomePageCSS";
 
 const WellCome = () => {
     return (

@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const TagContainer = styled.div`
-  width: 100%;
-  height: 100%;
-  margin-top: 5vw;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
 
   .DivIcons {
     display: flex;
@@ -114,7 +115,7 @@ export const TagContainer = styled.div`
     color: var(--color-orange);
   }
 
-  .TextFrontEnd {
+  .TextBackEnd {
     position: relative;
     bottom: 74%;
     left: 55%;
@@ -122,7 +123,7 @@ export const TagContainer = styled.div`
     margin-left: 76px;
     width: 675px;
     height: 270px;
-
+    font-family: "Alice", serif;
     h2 {
       font-weight: 400;
       font-size: 1.42em;

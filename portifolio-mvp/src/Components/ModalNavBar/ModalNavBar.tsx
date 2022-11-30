@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { UserContext } from "../../Context/AuthContext";
-import { Container, Nav } from "./CSSModalNavBar";
+import { Container, Nav } from "./ModalNavBarCSS";
 import { motion } from "framer-motion";
 
 const NavBarModal = () => {

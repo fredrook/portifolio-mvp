@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   :root {
@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
     --color-primary-Focus:    #003A79;
     --color-primary-Negative: #000044;
     --color-orange:           #FF6B00;
-    --color-grey-4:           #121214;
+    --color-escura:           #121214;
     --color-grey-3:           #212529;
     --color-grey-2:           ##d9d9d940;
     --color-grey-1:           #D9D9D9;
@@ -14,7 +14,9 @@ const GlobalStyle = createGlobalStyle`
     --color-negative:         #E83F5B;
     --color-success:          #3FE864;
     
-    font-family: alice;
+    font-family: 'Alice', serif;
+    font-family: 'Allerta', sans-serif;
+    font-family: 'Almendra SC', serif;
   }
 
   @media (min-width: 700px) {
@@ -39,6 +41,7 @@ const GlobalStyle = createGlobalStyle`
     align-items: center;
     overflow-x: hidden;
     scrollbar-gutter: stable;
+
     &::-webkit-scrollbar {
       width: 0.5rem;
       
@@ -81,11 +84,11 @@ const GlobalStyle = createGlobalStyle`
 
   button {
     cursor: pointer;
-    font-family: "Inter", sans-serif;
+    font-family: 'Alice', serif;
   }
 
   input:focus {
-    border: 1px solid var(--color-green2);
+    border: 1px solid var(--color-success);
   }
 `;
 
