@@ -27,9 +27,9 @@ const CarouselFronEnd = () => {
     },
   ];
   const carouselPictures: string[] = [
-    "https://i.imgur.com/m8RqsGH.jpg",
-    "https://i.imgur.com/pEY1tZz.jpg",
-    "https://i.imgur.com/dCcGVnU.jpg",
+    "https://i.imgur.com/0KPsDum.png",
+    "https://i.imgur.com/RXNqAGv.png",
+    "https://i.imgur.com/Ustuoa5.png",
     "https://i.imgur.com/DaRmztf.png",
     "https://i.imgur.com/ffqI5nJ.jpg",
   ];

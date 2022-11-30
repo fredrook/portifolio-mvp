@@ -13,7 +13,7 @@ const FrontEndPage = () => {
   const Chakra: string = require("../../Assets/FrontEnd/Chakra.png");
 
   return (
-    <TagContainer>
+    <TagContainer id='IDFE'>
       <div className="DivIcons">
         <img src={JS} alt="Java Script" />
         <img src={HTML} alt="HTML" />

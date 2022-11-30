@@ -1,10 +1,11 @@
-import { TagBtnH } from "../ButtonHistory/BtnHistoryCSS";
+import { TagA } from "./BtnBackEndCSS";
 
 const BtnHistory = () => {
-
-    return (
-        <TagBtnH /* onClick={} */>Back End</TagBtnH>
-    )
-}
+  return (
+    <TagA href="#IDBE">
+      <p>Back End</p>
+    </TagA>
+  );
+};
 
 export default BtnHistory;

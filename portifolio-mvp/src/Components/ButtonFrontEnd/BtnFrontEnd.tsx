@@ -3,7 +3,9 @@ import { TagBtnFE } from "../ButtonFrontEnd/BtnFrontEndCSS";
 const BtnFrontEnd = () => {
 
     return (
-        <TagBtnFE /* onClick={} */>Front End</TagBtnFE>
+        <TagBtnFE href="#IDFE">
+            <p>Front End</p>
+        </TagBtnFE>
     )
 }
 

@@ -1,10 +1,11 @@
-import { TagBtnP } from "./BtnProjectsCSS";
+import { TagA } from "./BtnProjectsCSS";
 
 const BtnProjects = () => {
-
-    return (
-        <TagBtnP /* onClick={} */>Projects</TagBtnP>
-    )
-}
+  return (
+    <TagA href="#IDPROJ">
+      <p>Projects</p>
+    </TagA>
+  );
+};
 
 export default BtnProjects;

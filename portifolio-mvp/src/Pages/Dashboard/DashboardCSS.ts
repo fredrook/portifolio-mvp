@@ -1,15 +1,17 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 100vw;
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-
+  align-items: center;
+  
   .ICB {
     width: 100%;
-    height: 80%;
-    position: relative;
-    top: 23%;
+    height: 78%;
+    position: fixed;
+    top: 16%;
     align-items: center;
 
     z-index: -9999;
@@ -18,16 +20,22 @@ export const Container = styled.div`
     animation-name: IceBergFlutuante;
     animation-duration: 4.5s;
     animation-iteration-count: infinite;
-  }
 
+    /* @media screen and (min-height: 320px) {
+      min-width: 100%;
+  } */
+
+  }
+  
   .Ondas {
     width: 100%;
     height: 80%;
     position: fixed;
     top: 20%;
     align-items: center;
-
+    
     z-index: -9999;
+ 
   }
 
   @keyframes IceBergFlutuante {
@@ -44,8 +52,6 @@ export const Container = styled.div`
       filter: drop-shadow(rgb(	251	195	139) -2px -35px 20px);
     }
   }
-
-  @media screen and (min-height: 800px) {
-    height: 800px;
-  }
+ /*  @media screen and (min-height: 768px) {
+  } */
 `;

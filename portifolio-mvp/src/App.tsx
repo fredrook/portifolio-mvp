@@ -1,14 +1,17 @@
 import AuthContext from "./Context/AuthContext";
 import Dashboard from "./Pages/Dashboard/Dashboard";
-import { AppDiv } from "./AppCSS"
+import { ChakraProvider } from "@chakra-ui/react";
+import { AppDiv } from "./AppCSS";
 
 function App() {
   return (
-    <AuthContext>
-      <AppDiv>
-      <Dashboard/>
-      </AppDiv>
-    </AuthContext>
+    <ChakraProvider>
+      <AuthContext>
+        <AppDiv>
+          <Dashboard />
+        </AppDiv>
+      </AuthContext>
+    </ChakraProvider>
   );
 }
 

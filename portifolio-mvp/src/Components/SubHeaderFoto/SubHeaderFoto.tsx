@@ -1,14 +1,15 @@
 import { HeaderFoto } from "./SubHeaderFotoCSS";
 
 const SubHeaderFoto = () => {
+  const Foto: string = require("../../Assets/FRC Tratada.png");
 
-    const Foto: string = require("../../Assets/FRC Tratada.png")
-
-    return (
-        <HeaderFoto>
-            <img src={Foto} alt="Foto do Frederico Rook Chaves" />
-        </HeaderFoto>
-    )
-}
+  return (
+    <HeaderFoto>
+      <a href="#">
+        <img src={Foto} alt="Foto do Frederico Rook Chaves" />
+      </a>
+    </HeaderFoto>
+  );
+};
 
 export default SubHeaderFoto;
