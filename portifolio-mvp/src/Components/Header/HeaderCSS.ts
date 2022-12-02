@@ -28,11 +28,12 @@ export const Div = styled.div`
     margin-right: 3%;
 
     @media screen and (min-width: 1024px) {
-        margin-right: 1%;
+      margin-right: 1%;
     }
 
     @media screen and (min-width: 768px) {
-        margin-right: 0%;
+      margin-right: 1%;
+      margin-left: -1.5%;
     }
   }
 
@@ -40,6 +41,7 @@ export const Div = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 2%;
 
     .navIcon {
       font-size: 35px;
@@ -66,9 +68,38 @@ export const DivButtons = styled.div`
     gap: 2%;
   }
 
+  @media screen and (max-width: 1280px) {
+    width: 72%;
+    gap: 1.5%;
+  }
+
+  @media screen and (max-width: 884px) {
+    width: 72%;
+    gap: 1.5%;
+  }
+
+  @media screen and (max-width: 834px) {
+    width: 72%;
+    gap: 1%;
+  }
+
+  @media screen and (max-width: 820px) {
+    width: 72%;
+    gap: 1.5%;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 72%;
+    gap: 1.5%;
+  }
+
   @media screen and (max-width: 768px) {
     width: 72%;
     gap: 2%;
+  }
+
+  @media screen and (max-width: 428px) {
+    display: none;
   }
 
   @media screen and (max-width: 425px) {
@@ -78,6 +109,23 @@ export const DivButtons = styled.div`
 
 export const DivList = styled.div`
   display: none;
+
+  @media screen and (max-width: 428px) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100px;
+    height: 50px;
+
+    .ListIcon {
+      width: 65px;
+      height: 25px;
+      border-radius: 50%;
+      border: none;
+      color: var(--color-orange);
+      background: var(--color-white);
+    }
+  }
 
   @media screen and (max-width: 425px) {
     display: flex;

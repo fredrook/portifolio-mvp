@@ -5,7 +5,6 @@ import FrontEndPage from "../FrontEnd/FrontEndPage";
 import WellCome from "../WellcomePage/WellcomePage";
 import BackEndPage from "../BackEnd/BackEndPage";
 import ProjectPage from "../Projects/ProjectsPage";
-import SmallWithLogoLeft from "../../Components/FooterChakra/FooterChackra";
 
 const Dashboard = () => {
   const Iceb: string = require("../../Assets/Icones/IceB.png");
@@ -16,12 +15,12 @@ const Dashboard = () => {
       <Header />
       <img className="ICB" src={Iceb} alt="Fundo de Movel!" />
       <img className="Ondas" src={Ondas} alt="Fundo de estatico!" />
-      {/* <WellCome />
+      <WellCome />
       <FrontEndPage />
-      <BackEndPage />
+      {/* <BackEndPage />
       <ProjectPage /> */}
       <Footer />
-      {/* <SmallWithLogoLeft/> */}
+     
     </Container>
   );
 };

@@ -4,7 +4,7 @@ import { Container, Nav } from "./ModalNavBarCSS";
 import { motion } from "framer-motion";
 
 const NavBarModal = () => {
-  const { visible, setIsVisible } = useContext(UserContext);
+  const { visible } = useContext(UserContext);
 
   const variants = {
     open: {
@@ -31,20 +31,20 @@ const NavBarModal = () => {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
       ></motion.div>
-      
+
       {visible && (
-        <Container>
+        <Container onClick={(event) => event.stopPropagation()} >
           <Nav>
             <a href="*">
               <span>History</span>
             </a>
-            <a href="*">
+            <a href="#IDFE">
               <span>Front-End</span>
             </a>
-            <a href="*">
+            <a href="#IDBE">
               <span>Back-End</span>
             </a>
-            <a href="*">
+            <a href="#IDPROJ">
               <span>Projects</span>
             </a>
           </Nav>

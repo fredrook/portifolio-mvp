@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const TagContainer = styled.div`
   display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
   min-height: 100vh;
@@ -10,8 +12,8 @@ export const TagContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 140px;
     height: 10vh;
+    margin-bottom: 8.5%;
 
     img {
       width: 90px;

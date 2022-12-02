@@ -5,10 +5,6 @@ export const HeaderFoto = styled.div`
 z-index: 99999;
 
    img{
-    /* position: absolute;
-    top: -59px;
-    left: 39.5vw; */
-
     display: flex;
 
     border-radius: 50%;
