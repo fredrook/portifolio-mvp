@@ -10,13 +10,76 @@ export const TextApresentationDiv = styled.div`
   align-items: flex-start;
   flex-direction: column;
 
-  width: 720px;
-  height: 335px;
+  width: 700px;
+  height: 350px;
 
-  position: relative;
-  top: 115px;
-  left: 99px;
+  position: absolute;
+  top: 11%;
+  left: 4%;
 
+  @media screen and (min-width: 2560px) {
+    top: 15%;
+    left: 4.8%;
+    width: 881px;
+    height: 350px;
+  }
+
+  @media screen and (max-width: 1880px) {
+    top: 11%;
+    left: 4%;
+    width: 700px;
+    height: 350px;
+  }
+
+  @media screen and (max-width: 1440px) {
+    top: 12%;
+    left: 4%;
+    width: 580px;
+    height: 300px;
+    border: 1px solid red;
+  }
+
+  @media screen and (max-width: 1280px) {
+  }
+
+  @media screen and (max-width: 884px) {
+  }
+
+  @media screen and (max-width: 834px) {
+  }
+
+  @media screen and (max-width: 820px) {
+  }
+
+  @media screen and (max-width: 800px) {
+  }
+
+  @media screen and (max-width: 768px) {
+  }
+
+  @media screen and (max-width: 428px) {
+  }
+
+  @media screen and (max-width: 414px) {
+  }
+
+  @media screen and (max-width: 412px) {
+  }
+
+  @media screen and (max-width: 393px) {
+  }
+
+  @media screen and (max-width: 390px) {
+  }
+
+  @media screen and (max-width: 375px) {
+  }
+
+  @media screen and (max-width: 360px) {
+  }
+
+  @media screen and (max-width: 320px) {
+  }
   .IDContainer {
     display: flex;
     align-items: center;
@@ -92,9 +155,9 @@ export const TextApresentationDiv = styled.div`
 `;
 
 export const IconsGHLD = styled.div`
-  position: relative;
-  bottom: 36%;
-  left: 180%;
+  position: absolute;
+  bottom: 18%;
+  right: 20%;
   display: flex;
   flex-direction: column;
 
