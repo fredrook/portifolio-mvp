@@ -15,6 +15,15 @@ export const TagContainer = styled.div`
     height: 10vh;
     margin-bottom: 8.5%;
 
+    @media screen and (max-width: 2560px) {
+      margin-bottom: 14.5%;
+    }
+
+    @media screen and (max-width: 1440px) {
+      margin-bottom: 9.5%;
+      margin-left: 1.5%;
+    }
+
     img {
       width: 90px;
       height: 90px;
@@ -65,21 +74,62 @@ export const TagContainer = styled.div`
     line-height: 44px;
     text-decoration: underline;
     color: var(--color-orange);
+    font-family: "Allerta", sans-serif;
+
+    @media screen and (max-width: 2560px) {
+      left: 115px;
+      font-weight: 400;
+      font-size: 2.5em;
+      line-height: 44px;
+    }
+
+    @media screen and (max-width: 1440px) {
+      bottom: 40px;
+      left: 63px;
+      font-weight: 400;
+      font-size: 2.3em;
+      line-height: 44px;
+    }
   }
 
   .TextFrontEnd {
-    bottom: 60px;
     position: relative;
+    bottom: 60px;
     margin-top: 109px;
     margin-left: 76px;
     width: 675px;
     height: 323px;
+
+    @media screen and (max-width: 2560px) {
+      position: relative;
+      bottom: 120px;
+      left: 1.5%;
+    }
+
+    @media screen and (max-width: 1440px) {
+      position: relative;
+      bottom: 40px;
+      left: -0.7%;
+      width: 530px;
+      height: 323px;
+    }
 
     h2 {
       font-weight: 400;
       font-size: 1.49em;
       line-height: 40px;
       text-align: justify;
+      font-family: "Alice", serif;
+
+      @media screen and (max-width: 2560px) {
+        font-size: 2em;
+        font-family: "Alice", serif;
+      }
+
+      @media screen and (max-width: 1440px) {
+        font-size: 1.49em;
+        font-family: "Alice", serif;
+      }
     }
   }
 
