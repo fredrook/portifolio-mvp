@@ -17,8 +17,8 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 101%;
-    right: -5.7%;
+    top: 129%;
+    right: -6%;
     width: 100%;
     height: 100%;
   }
@@ -45,23 +45,28 @@ export const Container = styled.div`
     height: 100%;
   }
 
-  @media screen and (max-width: 390px) {
+  @media screen and (max-width: 412px) {
+    top: 129%;
+    right: -5.8%;
+  }
+
+  /* @media screen and (max-width: 390px) {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 103%;
+    top: 130%;
     right: -5.2%;
     width: 100%;
     height: 100%;
-  }
+  } */
 
   @media screen and (max-width: 375px) {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 104%;
+    top: 133%;
     right: -4.5%;
     width: 100%;
     height: 100%;
@@ -72,7 +77,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 106%;
+    top: 133%;
     right: -4%;
     width: 100%;
     height: 100%;
@@ -83,7 +88,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 106%;
+    top: 136%;
     right: -2%;
     width: 100%;
     height: 100%;

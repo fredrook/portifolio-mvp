@@ -13,6 +13,10 @@ export const TagContainer = styled.div`
     margin-bottom: 140px;
     height: 10vh;
 
+    @media screen and (max-width: 1920px) {
+      
+    }
+
     .Redis {
       position: relative;
       top: 435%;
@@ -95,7 +99,7 @@ export const TagContainer = styled.div`
 
     .PythonIcon {
       position: relative;
-      bottom: 0%;
+      top: 100%;
       left: 22%;
       width: 130px;
       height: 15vh;
