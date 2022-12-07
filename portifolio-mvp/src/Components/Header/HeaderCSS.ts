@@ -21,6 +21,18 @@ export const Div = styled.div`
   box-shadow: rgb(0 0 0 / 25%) 0px 2px 4px 2px;
   border-bottom: 5px solid var(black);
 
+  @media screen and (max-width: 375px) {
+        
+      }
+
+  @media screen and (min-width: 360px) {
+      height: 67px;
+    }
+
+  @media screen and (min-width: 320px) {
+      height: 65px;
+    }
+
   img {
     width: 103px;
     height: 84px;
@@ -34,6 +46,28 @@ export const Div = styled.div`
     @media screen and (min-width: 768px) {
       margin-right: 1%;
       margin-left: -1.5%;
+    }
+
+    @media screen and (max-width: 390px) {
+      
+    }
+
+    @media screen and (min-width: 375px) {
+      margin-right: 6%;
+      width: 63px;
+      height: 62px;
+      }
+
+    @media screen and (min-width: 360px) {
+      margin-right: 6%;
+      width: 63px;
+      height: 60px;
+    }
+
+    @media screen and (min-width: 320px) {
+      margin-right: 6%;
+      width: 70px;
+      height: 63px;
     }
   }
 

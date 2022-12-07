@@ -12,20 +12,21 @@ const TextApresentation = () => {
     <ContainerMain>
       <TextApresentationDiv>
         <div className="IDContainer">
-          <h2 className="ID1">H</h2>
-          <h2 className="ID2">i</h2>
+          <h2 className="ID0">O</h2>
+          <h2 className="ID1">l</h2>
+          <h2 className="ID2">á</h2>
           <h2 className="ID3">!</h2>
-          <h2 className="ID4">My name is</h2>
+          <h2 className="ID4">Meu nome é</h2>
         </div>
-        <h1>Frederico,</h1>
-        <p className="P1">I'm a software developer.</p>
+        <h1>Frederico.</h1>
+        <p className="P1">Sou desenvolvedor Full Stack.</p>
         <p className="P2">
-          My goal is to provide my knowledge as a Programmer, in order to play
-          as a team, working as the main parameter, the concepts "Clean Code",
-          "Agile Methodologies", creating effective, beautiful and responsive
-          projects.
+          Meu objetivo é fornecer meu conhecimento como Programador, de forma a
+          atuar em equipe, trabalhando como principal parâmetro, os conceitos
+          “Código Limpo”, “Metodologias Ágeis”, criando projetos eficazes,
+          bonitos e responsivos.
         </p>
-        <span>I'm available to work!</span>
+        <span>Estou disponível para trabalhar!</span>
       </TextApresentationDiv>
       <IconsGHLD>
         <a

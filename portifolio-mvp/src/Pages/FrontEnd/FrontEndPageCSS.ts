@@ -19,6 +19,11 @@ export const TagContainer = styled.div`
       margin-bottom: 14.5%;
     }
 
+    @media screen and (max-width: 1920px) {
+      margin-bottom: 8%;
+      margin-left: 0.6%;
+    }
+
     @media screen and (max-width: 1440px) {
       margin-bottom: 9.5%;
       margin-left: 1.5%;
@@ -83,6 +88,14 @@ export const TagContainer = styled.div`
       line-height: 44px;
     }
 
+    @media screen and (max-width: 1920px) {
+      bottom: 70px;
+      left: 122px;
+      font-weight: 400;
+      font-size: 2.3em;
+      line-height: 44px;
+    }
+
     @media screen and (max-width: 1440px) {
       bottom: 40px;
       left: 63px;
@@ -104,6 +117,14 @@ export const TagContainer = styled.div`
       position: relative;
       bottom: 120px;
       left: 1.5%;
+    }
+
+    @media screen and (max-width: 1920px) {
+      position: relative;
+      bottom: 65px;
+      left: 2.5%;
+      width: 650px;
+      height: 323px;
     }
 
     @media screen and (max-width: 1440px) {

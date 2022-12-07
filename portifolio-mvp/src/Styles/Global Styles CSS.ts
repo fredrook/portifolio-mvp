@@ -35,12 +35,93 @@ const GlobalStyle = createGlobalStyle`
   body {
     width: 100vw;
     height: 100vh;      
+    font-size: 0.5em;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
     scrollbar-gutter: stable;
+
+  @media screen and (min-width: 2560px) {
+   font-size: 1.5em;
+  }
+
+  @media screen and (max-width: 1920px) {
+    font-size: 1em;
+  }
+
+  @media screen and (max-width: 1880px) {
+    font-size: 1em;
+  }
+
+  @media screen and (max-width: 1680px) {
+    font-size: 0.95em;
+  }
+
+  @media screen and (max-width: 1600px) {
+    font-size: 0.97em;
+  }
+
+  @media screen and (max-width: 1440px) {
+    font-size: 0.95em;
+  }
+
+  @media screen and (max-width: 1400px) {
+    font-size: 0.85em;
+  }
+
+  @media screen and (max-width: 1280px) {
+    font-size: 0.8em;
+  }
+
+  @media screen and (max-width: 1024px) {
+    font-size: 0.8em;
+  }
+
+  @media screen and (max-width: 884px) {
+  }
+
+  @media screen and (max-width: 834px) {
+  }
+
+  @media screen and (max-width: 820px) {
+  }
+
+  @media screen and (max-width: 800px) {
+  }
+
+  @media screen and (max-width: 768px) {
+  }
+
+  @media screen and (max-width: 428px) {
+  }
+
+  @media screen and (max-width: 414px) {
+    font-size: 0.26em;
+  }
+
+  @media screen and (max-width: 412px) {
+  }
+
+  @media screen and (max-width: 393px) {
+  }
+
+  @media screen and (max-width: 390px) {
+    font-size: 0.26em;
+  }
+
+  @media screen and (max-width: 375px) {
+    font-size: 0.26em;
+  }
+
+  @media screen and (max-width: 360px) {
+    font-size: 0.22em;
+  }
+
+  @media screen and (max-width: 320px) {
+    font-size: 0.2em;
+  }
 
     &::-webkit-scrollbar {
       width: 0.5rem;

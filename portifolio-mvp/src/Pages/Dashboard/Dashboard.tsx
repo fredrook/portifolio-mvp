@@ -16,8 +16,8 @@ const Dashboard = () => {
       <img className="ICB" src={Iceb} alt="Fundo de Movel!" />
       <img className="Ondas" src={Ondas} alt="Fundo de estatico!" />
       <WellCome />
-      <FrontEndPage />
-      {/* <BackEndPage />
+      {/* <FrontEndPage />
+      <BackEndPage />
       <ProjectPage /> */}
       <Footer />
      
