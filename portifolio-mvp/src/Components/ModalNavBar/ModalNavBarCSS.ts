@@ -6,7 +6,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 101%;
+    top: 127%;
     right: -6.3%;
     width: 100%;
     height: 100%;
@@ -24,33 +24,11 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 412px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 101%;
-    right: -5.7%;
-    width: 100%;
-    height: 100%;
-  }
-
-  @media screen and (max-width: 393px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 103%;
-    right: -5.2%;
-    width: 100%;
-    height: 100%;
-  }
-
-  @media screen and (max-width: 412px) {
     top: 129%;
-    right: -5.8%;
+    right: -5.2%;
   }
 
-  /* @media screen and (max-width: 390px) {
+  @media screen and (max-width: 390px) {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +37,7 @@ export const Container = styled.div`
     right: -5.2%;
     width: 100%;
     height: 100%;
-  } */
+  }
 
   @media screen and (max-width: 375px) {
     display: flex;

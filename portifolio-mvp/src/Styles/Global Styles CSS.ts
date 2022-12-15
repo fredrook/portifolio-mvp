@@ -95,6 +95,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   @media screen and (max-width: 428px) {
+    font-size: 0.26em;
   }
 
   @media screen and (max-width: 414px) {

@@ -18,14 +18,18 @@ export const TextApresentationDiv = styled.div`
   left: 4%;
 
   @media screen and (min-width: 2560px) {
-    top: 15%;
-    left: 4.8%;
-    width: 881px;
+    top: 10%;
+    left: 4.5%;
+    width: 980px;
     height: 350px;
   }
 
   @media screen and (max-width: 1920px) {
-  }
+    top: 11%;
+    left: 4%;
+    width: 700px;
+    height: 350px;
+  } 
 
   @media screen and (max-width: 1880px) {
     top: 11%;
@@ -35,17 +39,17 @@ export const TextApresentationDiv = styled.div`
   }
 
   @media screen and (max-width: 1680px) {
-    top: 13.5%;
+    top: 10%;
     left: 4%;
   }
 
   @media screen and (max-width: 1600px) {
-    top: 13%;
+    top: 10%;
     left: 4%;
   }
 
   @media screen and (max-width: 1440px) {
-    top: 15%;
+    top: 9%;
     left: 4%;
     width: 580px;
     height: 380px;
@@ -61,6 +65,8 @@ export const TextApresentationDiv = styled.div`
   @media screen and (max-width: 1280px) {
     width: 520px;
     height: 380px;
+    top: 12%;
+    left: 4%;
   }
 
   @media screen and (max-width: 1024px) {
@@ -69,33 +75,62 @@ export const TextApresentationDiv = styled.div`
   }
 
   @media screen and (max-width: 884px) {
+    top: 9%;
+    left: 4%;
+    max-width: 87%;
+    width: 70%;
   }
 
   @media screen and (max-width: 834px) {
+    top: 7%;
+    left: 4%;
+    max-width: 87%;
+    width: 70%;
   }
 
   @media screen and (max-width: 820px) {
+    top: 7%;
+    left: 4%;
+    max-width: 87%;
+    width: 70%;
   }
 
   @media screen and (max-width: 800px) {
+    top: 8%;
+    left: 4%;
+    max-width: 87%;
+    width: 70%;
   }
 
   @media screen and (max-width: 768px) {
+    top: 10%;
+    left: 4%;
+    max-width: 92%;
+    width: 100%;
   }
 
   @media screen and (max-width: 428px) {
+    top: 17%;
+    left: 5.5%;
+    max-width: 87%;
   }
 
   @media screen and (max-width: 414px) {
     top: 18.5%;
     left: 5.5%;
-    max-width: 87%;  
+    max-width: 87%;
   }
 
   @media screen and (max-width: 412px) {
     top: 18.5%;
     left: 5.5%;
-    max-width: 87%;    
+    max-width: 87%;
+  }
+
+  @media screen and (max-width: 390px) {
+    top: 16.5%;
+    left: 5.5%;
+    max-width: 87%;
   }
 
   @media screen and (max-width: 375px) {
@@ -125,6 +160,26 @@ export const TextApresentationDiv = styled.div`
     height: 40px;
     margin-bottom: -1%;
 
+    @media screen and (max-width: 2560px) {
+      position: relative;
+      bottom: 3%;
+  
+    }
+
+    @media screen and (max-width: 768px) {
+      position: relative;
+      bottom: 3%;
+      left: 0%;
+      font-size: 1.1em;
+    }
+
+    @media screen and (max-width: 428px) {
+      position: relative;
+      bottom: 16%;
+      left: 0%;
+      font-size: 1.19em;
+    }
+
     @media screen and (max-width: 414px) {
       position: relative;
       bottom: 16%;
@@ -137,7 +192,14 @@ export const TextApresentationDiv = styled.div`
       bottom: 16%;
       left: 0%;
       font-size: 1.2em;
-  }
+    }
+
+    @media screen and (max-width: 390px) {
+      position: relative;
+      bottom: 10.5%;
+      left: 0%;
+      font-size: 1.3em;
+    }
 
     @media screen and (max-width: 375px) {
       position: relative;
@@ -188,12 +250,16 @@ export const TextApresentationDiv = styled.div`
     }
 
     .ID4 {
-      width: 170px;
+      width: 200px;
       margin-left: 3%;
       font-weight: 400;
       font-size: 3.5em;
       font-family: "Alice", serif;
       color: var(--color-escura);
+
+      @media screen and (max-width: 2560px) {
+      width: 300px;
+    }
     }
   }
 
@@ -203,6 +269,27 @@ export const TextApresentationDiv = styled.div`
     font-family: "Allerta", sans-serif;
     color: var(--color-escura);
 
+    @media screen and (max-width: 2560px) {
+      position: relative;
+      bottom: 0%;
+      left: 0%;
+      font-size: 4em;
+    }
+
+    @media screen and (max-width: 768px) {
+      position: relative;
+      bottom: 4%;
+      left: 0%;
+      font-size: 4em;
+    }
+
+    @media screen and (max-width: 428px) {
+      position: relative;
+      bottom: 17%;
+      left: 0%;
+      font-size: 5.5em;
+    }
+
     @media screen and (max-width: 414px) {
       position: relative;
       bottom: 17%;
@@ -210,12 +297,18 @@ export const TextApresentationDiv = styled.div`
       font-size: 5.5em;
     }
 
-
     @media screen and (max-width: 412px) {
       position: relative;
       bottom: 17%;
       left: 0%;
       font-size: 5.5em;
+    }
+
+    @media screen and (max-width: 390px) {
+      position: relative;
+      bottom: 12%;
+      left: 0%;
+      font-size: 5em;
     }
 
     @media screen and (max-width: 375px) {
@@ -247,8 +340,50 @@ export const TextApresentationDiv = styled.div`
     color: var(--color-escura);
     white-space: nowrap;
 
+    @media screen and (max-width: 2560px) {
+      font-size: 2.4em;
+    }
+
+    @media screen and (max-width: 1920px) {
+      font-size: 3.1em;
+    }
+
+    @media screen and (max-width: 1880px) {
+      font-size: 3em;
+    }
+    
+    @media screen and (max-width: 1680px) {
+      font-size: 3em;
+    }
+
+    @media screen and (max-width: 1600px) {
+      font-size: 3em;
+    }
+
+    @media screen and (max-width: 1440px) {
+      font-size: 3em;
+    }
+
+    @media screen and (max-width: 1400px) {
+      font-size: 3em;
+    }
+
     @media screen and (max-width: 1280px) {
-      font-size: 2.8em;
+      font-size: 3em;
+    }
+
+    @media screen and (max-width: 768px) {
+      position: relative;
+      bottom: 5%;
+      left: 0%;
+      font-size: 3.8em;
+    }
+
+    @media screen and (max-width: 428px) {
+      position: relative;
+      bottom: 17.7%;
+      left: 0%;
+      font-size: 5em;
     }
 
     @media screen and (max-width: 414px) {
@@ -263,6 +398,13 @@ export const TextApresentationDiv = styled.div`
       bottom: 17.7%;
       left: 0%;
       font-size: 5em;
+    }
+
+    @media screen and (max-width: 390px) {
+      position: relative;
+      bottom: 14%;
+      left: 0%;
+      font-size: 4.8em;
     }
 
     @media screen and (max-width: 375px) {
@@ -295,22 +437,66 @@ export const TextApresentationDiv = styled.div`
     font-family: "Alice", serif;
     color: var(--color-escura);
 
+    @media screen and (max-width: 2560px) {
+      line-height: 23px;
+      font-size: 2.4em;
+      line-height: 35px;
+    }
+    
+    @media screen and (max-width: 1920px) {
+      line-height: 23px;
+      font-size: 3.1em;
+    }
+
+    @media screen and (max-width: 1880px) {
+      line-height: 23px;
+      font-size: 3em;
+    }
+
+    @media screen and (max-width: 1680px) {
+      line-height: 23px;
+      font-size: 3em;
+    }
+
+    @media screen and (max-width: 1600px) {
+      line-height: 23px;
+      font-size: 3em;
+    }
+
     @media screen and (max-width: 1440px) {
       line-height: 23px;
+      font-size: 3em;
     }
 
     @media screen and (max-width: 1400px) {
       line-height: 24px;
+      font-size: 3em;
     }
 
     @media screen and (max-width: 1280px) {
       line-height: 23px;
-      font-size: 2.8em;
+      font-size: 3em;
     }
 
     @media screen and (max-width: 1024px) {
       line-height: 22px;
       font-size: 2.68em;
+    }
+
+    @media screen and (max-width: 768px) {
+      position: relative;
+      bottom: 5%;
+      left: 0%;
+      line-height: 26px;
+      font-size: 3.8em;
+    }
+
+    @media screen and (max-width: 428px) {
+      position: relative;
+      bottom: 18.1%;
+      left: 0%;
+      line-height: 22px;
+      font-size: 5em;
     }
 
     @media screen and (max-width: 414px) {
@@ -327,6 +513,14 @@ export const TextApresentationDiv = styled.div`
       left: 0%;
       line-height: 21px;
       font-size: 5em;
+    }
+
+    @media screen and (max-width: 390px) {
+      position: relative;
+      bottom: 15%;
+      left: 0%;
+      line-height: 21px;
+      font-size: 4.8em;
     }
 
     @media screen and (max-width: 375px) {
@@ -363,9 +557,36 @@ export const TextApresentationDiv = styled.div`
     color: var(--color-orange);
     margin-top: 1%;
 
+    @media screen and (max-width: 2560px) {
+      margin-top: 3%;
+      margin-left: -0.5%;
+      font-size: 3.7em;
+    }
+
+    @media screen and (max-width: 1920px) {
+      margin-top: 7%;
+      font-size: 3.7em;
+    }
+
+    @media screen and (max-width: 1880px) {
+      margin-top: 7%;
+      font-size: 3.7em;
+    }
+
+    @media screen and (max-width: 1680px) {
+      margin-top: 7%;
+      font-size: 3.7em;
+    }
+
+    
+    @media screen and (max-width: 1600px) {
+      margin-top: 7%;
+      font-size: 3.7em;
+    }
+
     @media screen and (max-width: 1440px) {
-      margin-top: 18%;
-      font-size: 3.2em;
+      margin-top: 7%;
+      font-size: 3.7em;
     }
 
     @media screen and (max-width: 1400px) {
@@ -374,13 +595,51 @@ export const TextApresentationDiv = styled.div`
     }
 
     @media screen and (max-width: 1280px) {
-      margin-top: 24%;
+      margin-top: 10%;
       font-size: 3.5em;
     }
 
     @media screen and (max-width: 1024px) {
-      margin-top: 22%;
+      margin-top: 19%;
       font-size: 2.8em;
+    }
+
+    @media screen and (max-width: 884px) {
+      margin-top: 4%;
+      margin-left: 0%;
+      font-size: 2.9em; 
+    }
+
+    @media screen and (max-width: 834px) {
+      margin-top: 4%;
+      margin-left: 0%;
+      font-size: 3em; 
+    }
+
+    @media screen and (max-width: 820px) {
+      margin-top: 4%;
+      margin-left: 0%;
+      font-size: 3em;
+    }
+
+    @media screen and (max-width: 800px) {
+      margin-top: 6%;
+      margin-left: 0%;
+      font-size: 3em;
+    }
+
+    @media screen and (max-width: 768px) {
+      margin-top: 7%;
+      margin-left: 0%;
+      font-size: 2.4em;
+      font-weight: 600;
+      letter-spacing: 0em;
+    }
+
+    @media screen and (max-width: 428px) {
+      margin-top: 49%;
+      margin-left: 18%;
+      font-size: 3.5em;
     }
 
     @media screen and (max-width: 414px) {
@@ -395,6 +654,18 @@ export const TextApresentationDiv = styled.div`
       font-size: 3.5em;
     }
 
+    @media screen and (max-width: 393px) {
+      margin-top: 57%;
+      margin-left: 13%;
+      font-size: 4em;
+    }
+
+    @media screen and (max-width: 390px) {
+      margin-top: 43%;
+      margin-left: 13%;
+      font-size: 4em;
+    }
+
     @media screen and (max-width: 375px) {
       margin-top: 41%;
       margin-left: 15%;
@@ -403,12 +674,12 @@ export const TextApresentationDiv = styled.div`
 
     @media screen and (max-width: 360px) {
       margin-top: 65%;
-      margin-left: 18%;
-      font-size: 3.5em;
+      margin-left: 16%;
+      font-size: 4em;
     }
 
     @media screen and (max-width: 320px) {
-      margin-top: 25%;
+      margin-top: 17%;
       margin-left: 17%;
       font-size: 3.5em;
     }
@@ -422,12 +693,116 @@ export const IconsGHLD = styled.div`
   display: flex;
   flex-direction: column;
 
+  @media screen and (max-width: 2560px) {
+    width: 100%;
+    bottom: 27%;
+    right: 0%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  @media screen and (max-width: 1920px) {
+    width: 100%;
+    bottom: 27%;
+    right: 0%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  @media screen and (max-width: 1880px) {
+    width: 100%;
+    bottom: 27%;
+    right: 0%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  @media screen and (max-width: 1680px) {
+    width: 100%;
+    bottom: 27%;
+    right: 0%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  @media screen and (max-width: 1600px) {
+    width: 100%;
+    bottom: 27%;
+    right: 0%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
   @media screen and (max-width: 1440px) {
-    right: 17%;
+    width: 100%;
+    bottom: 27%;
+    right: 0%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  @media screen and (max-width: 1400px) {
+    width: 100%;
+    bottom: 27%;
+    right: 0%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  @media screen and (max-width: 1280px) {
+    width: 100%;
+    bottom: 27%;
+    right: 0%;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
   @media screen and (max-width: 1024px) {
-    right: 17%;
+    width: 100%;
+    bottom: 23%;
+    right: 0%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  @media screen and (max-width: 884px) {
+    width: 100%;
+    bottom: 30%;
+    right: 0%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  @media screen and (max-width: 834px) {
+    width: 100%;
+    bottom: 30%;
+    right: 0%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  @media screen and (max-width: 820px) {
+    width: 100%;
+    bottom: 30%;
+    right: 0%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    bottom: 30%;
+    right: 0%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  @media screen and (max-width: 428px) {
+    width: 100%;
+    bottom: 30%;
+    right: 0%;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
   @media screen and (max-width: 414px) {
@@ -473,10 +848,21 @@ export const IconsGHLD = styled.div`
       width: 200px;
       height: 60px;
 
+      @media screen and (max-width: 768px) {
+        width: 155px;
+        height: 45px;
+        margin-top: 9%;
+      }
+
+      @media screen and (max-width: 428px) {
+        width: 85px;
+        height: 30px;
+      }
+
       @media screen and (max-width: 414px) {
         width: 75px;
         height: 25px;
-    }
+      }
 
       @media screen and (max-width: 375px) {
         width: 75px;
