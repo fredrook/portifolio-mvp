@@ -1,12 +1,9 @@
 import styled from "styled-components";
 
-export const TagContainer = styled.div`
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  width: 100vw;
-  height: 100vh;
-  min-height: 100vh;
+export const DivMobile = styled.div`
+@media screen and (max-width: 2560px) and (min-width:  429px){
+    display: none;
+}
 
   .DivIcons {
     display: flex;
@@ -14,7 +11,7 @@ export const TagContainer = styled.div`
     justify-content: space-evenly;
     height: 10vh;
     margin-bottom: 8.5%;
-
+    
     @media screen and (max-width: 2560px) {
       margin-bottom: 14.5%;
     }
@@ -33,30 +30,10 @@ export const TagContainer = styled.div`
       width: 90px;
       height: 90px;
     }
-
-    .TS {
-      width: 80px;
-      height: 83px;
-    }
-
-    .Node {
-      width: 95px;
-      height: 95px;
-    }
-
-    .MUi {
-      width: 105px;
-      height: 105px;
-    }
-
-    .BST {
-      width: 115px;
-      height: 95px;
-    }
-
-    .Chk {
-      width: 88px;
-      height: 88px;
+    
+    .IconsMobile {
+      width: 150px;
+      height: 150px;
     }
 
     .ReactIcon {
@@ -80,14 +57,14 @@ export const TagContainer = styled.div`
     text-decoration: underline;
     color: var(--color-orange);
     font-family: "Allerta", sans-serif;
-
+    
     @media screen and (max-width: 2560px) {
       left: 115px;
       font-weight: 400;
       font-size: 2.5em;
       line-height: 44px;
     }
-
+    
     @media screen and (max-width: 1920px) {
       bottom: 70px;
       left: 122px;
@@ -104,7 +81,7 @@ export const TagContainer = styled.div`
       line-height: 44px;
     }
   }
-
+  
   .TextFrontEnd {
     position: relative;
     bottom: 60px;
@@ -112,13 +89,13 @@ export const TagContainer = styled.div`
     margin-left: 76px;
     width: 675px;
     height: 323px;
-
+    
     @media screen and (max-width: 2560px) {
       position: relative;
       bottom: 120px;
       left: 1.5%;
     }
-
+    
     @media screen and (max-width: 1920px) {
       position: relative;
       bottom: 65px;
@@ -126,7 +103,7 @@ export const TagContainer = styled.div`
       width: 650px;
       height: 323px;
     }
-
+    
     @media screen and (max-width: 1440px) {
       position: relative;
       bottom: 40px;
@@ -141,12 +118,12 @@ export const TagContainer = styled.div`
       line-height: 40px;
       text-align: justify;
       font-family: "Alice", serif;
-
+      
       @media screen and (max-width: 2560px) {
         font-size: 2em;
         font-family: "Alice", serif;
       }
-
+      
       @media screen and (max-width: 1440px) {
         font-size: 1.49em;
         font-family: "Alice", serif;
